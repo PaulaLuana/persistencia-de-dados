@@ -1,3 +1,5 @@
+# Trabalho prático 2
+
 1. Crie uma aplicação que use um banco relacional contendo uma tabela de alunos e suas disciplinas cursadas, com suas respectivas classes Java. Cada aluno deve ter um id, cpf, matrícula, nome, email e data de nascimento. Cada disciplina tem somente id, código e nome. Os campos id, código, matrícula e email, considerados individualmente, não devem permitir duplicação, ou seja devem ser únicos. Existe uma associação entre alunos e disciplinas de modo que um aluno pode cursar várias disciplinas e uma disciplinas pode ser cursada por vários alunos. As tabelas devem ser criadas a partir dos mapeamentos das classes (entidades) através do JPA.
 
 2. Use o padrão de persistência DAO neste trabalho usando os recursos do Spring Boot/Spring Data JPA. 
